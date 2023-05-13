@@ -1,0 +1,40 @@
+name: storylane
+title: Storylane
+organization: kba55k0e1uetJ5GkLRtX
+icon: ./assets/storylane-icon.png
+previewImages:
+  - ./assets/preview-image-1.png
+categories:
+  - marketing
+visibility: private
+description: 'Help users master your product easily by embedding interactive product tours in your documentation.'
+summary: |
+  # Overview
+
+  Forget videos. Now add interactive walkthroughs of your product to your documentation in minutes and make it easier for your customers to get to their aha moments, at their own pace.
+
+  With Storylane’s product tours, you can give your customers a more hands-on experience of how your product functions and help them get started immediately.
+
+  This integration allows you to embed Storylane’s interactive product tours into your Gitbook powered documentation.
+
+  # How it works
+
+  Once you’ve published a product tour on Storylane, the simplest way to embed it in your documentation is to just copy the public share URL of the product tour and paste it. Gitbook will automatically convert the link to an embedded product tour.
+
+  # Configure
+
+  The integration is simple two-step process. GitBook admins can enable the Storylane integration by,
+
+  1. Clicking on “Integrations” in the space sub-navigation. You’ll be redirected to the integrations library.
+  2. Here, select Storylane and then click on “Install” (bottom right corner)
+
+  And you’re done!
+script: src/index.tsx
+scopes: []
+blocks:
+  - id: embed
+    title: Storylane
+    description: Interactive product demo
+    urlUnfurl:
+      - https://*.storylane.io/share/**
+      - https://*.storylane.io/demo/**
