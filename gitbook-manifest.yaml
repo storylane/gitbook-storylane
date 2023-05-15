@@ -4,6 +4,9 @@ organization: kba55k0e1uetJ5GkLRtX
 icon: ./assets/storylane-icon.png
 previewImages:
   - ./assets/preview-image-1.png
+externalLinks:
+  - label: Storylane Homepage
+    url: https://www.storylane.io/
 categories:
   - marketing
 visibility: unlisted
