@@ -6,7 +6,7 @@ previewImages:
   - ./assets/preview-image-1.png
 categories:
   - marketing
-visibility: private
+visibility: unlisted
 description: 'Help users master your product easily by embedding interactive product tours in your documentation.'
 summary: |
   # Overview
